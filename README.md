@@ -15,3 +15,10 @@ npm list
 lencamo-cli --version
 lencamo-cli --help
 ```
+
+- 使用项目基础模板
+
+```sh
+# 使用koa2模板
+lencamo-cli create koa-template --template koa2
+```
