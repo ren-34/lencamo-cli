@@ -1,0 +1,14 @@
+{
+  "name": "lencamo-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "lencamo-cli": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lencamo",
+  "license": "ISC"
+}
