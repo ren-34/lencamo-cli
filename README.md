@@ -13,7 +13,7 @@ lencamo-cli --help
 lencamo-cli create projectName
 ```
 
-- 使用项目基础模板
+- 使用个人 vscode 代码片段
 
 ```sh
 lencamo-cli snippet
