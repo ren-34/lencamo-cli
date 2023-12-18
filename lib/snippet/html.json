@@ -1,0 +1,60 @@
+{
+  "HTML5-vue2": {
+    "prefix": "ren-vue2-html",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "\t<head>",
+      "\t\t<meta charset=\"UTF-8\" />",
+      "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+      "\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\" />",
+      "\t\t<title>Document</title>",
+      "\t\t<!-- <script src=\"https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js\"></script> -->",
+      "\t\t<script src=\"https://unpkg.com/vue@2/dist/vue.js\"></script>",
+      "\t</head>\n",
+      "\t<body>",
+      "\t\t<div id=\"app\"></div>\n",
+      "\t\t<script type=\"text/JavaScript\">",
+      "\t\t\tnew Vue({",
+      "\t\t\t\tel: '#app',",
+      "\t\t\t\tdata: {",
+      "\t\t\t\t\t//",
+      "\t\t\t\t},",
+      "\t\t\t});",
+      "\t\t</script>",
+      "\t</body>",
+      "</html>\n"
+    ],
+    "description": "lencamo自定义的vue2非单页面模板"
+  },
+  "HTML5-vue3": {
+    "prefix": "ren-vue3-html",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "\t<head>",
+      "\t\t<meta charset=\"UTF-8\" />",
+      "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+      "\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\" />",
+      "\t\t<title>Document</title>",
+      "\t\t<!-- <script src=\"https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.min.js\"></script> -->",
+      "\t\t<script src=\"https://unpkg.com/vue@3/dist/vue.global.js\"></script>",
+      "\t</head>\n",
+      "\t<body>",
+      "\t\t<div id=\"app\"></div>\n",
+      "\t\t<script>",
+      "\t\t\tconst { createApp } = Vue\n",
+      "\t\t\tcreateApp({",
+      "\t\t\t\tdata() {",
+      "\t\t\t\t\treturn {",
+      "\t\t\t\t\t\t//",
+      "\t\t\t\t\t}",
+      "\t\t\t\t}",
+      "\t\t\t}).mount('#app')",
+      "\t\t</script>",
+      "\t</body>",
+      "</html>\n"
+    ],
+    "description": "lencamo自定义的vue3非单页面模板"
+  }
+}

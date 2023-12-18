@@ -1,0 +1,23 @@
+{
+  "lencamo自定义的 pinia 的.js文件模板": {
+    "prefix": "ren-pinia-.ts",
+    "body": [
+      "import { defineStore } from 'pinia'",
+      "",
+      "const use${1:Demo}Store = defineStore('${1:Demo}', {",
+      "  state: () => ({",
+      "    //$2",
+      "  }),",
+      "  getters: {",
+      "    //$3",
+      "  },",
+      "  actions: {",
+      "    //$0",
+      "  }",
+      "})",
+      "",
+      "export default use${1:Demo}Store"
+    ],
+    "description": "lencamo自定义的 pinia 的.js文件模板"
+  }
+}

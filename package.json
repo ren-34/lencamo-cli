@@ -1,6 +1,6 @@
 {
   "name": "lencamo-cli",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -12,6 +12,7 @@
   "author": "lencamo",
   "license": "ISC",
   "dependencies": {
+    "clipboardy": "^2.3.0",
     "commander": "^11.1.0",
     "consola": "^3.2.3",
     "download-git-repo": "^3.0.2",

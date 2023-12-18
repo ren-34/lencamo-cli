@@ -1,0 +1,22 @@
+{
+  "lencamo自定义的 http server 的.js文件模板": {
+    "prefix": "ren-node-.js",
+    "body": [
+      "const { createServer } = require('http')",
+      "",
+      "const server = createServer()",
+      "",
+      "server.on('request', (req, res) => {",
+      "  //",
+      "",
+      "  res.end()",
+      "})",
+      "",
+      "server.listen(6061, () => {",
+      "  console.log('Server running at http://localhost:6061')",
+      "})",
+      ""
+    ],
+    "description": "lencamo自定义的node服务的.js文件模板"
+  }
+}

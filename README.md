@@ -13,6 +13,12 @@ lencamo-cli --help
 lencamo-cli create projectName
 ```
 
+- 使用项目基础模板
+
+```sh
+lencamo-cli snippet
+```
+
 - 为项目添加新模块
 
 ```sh

@@ -1,0 +1,54 @@
+{
+  "hexo之butterfly的彩色标签": {
+    "prefix": ">note",
+    "body": ["{% note $1 %}", "", "&emsp;&emsp;$0", "", "{% endnote %}"],
+    "description": "hexo之butterfly的彩色标签"
+  },
+
+  "hexo之butterfly的Details折叠": {
+    "prefix": ">details",
+    "body": ["{% hideToggle $1 %}", "", "$0", "", "{% endhideToggle %}"],
+    "description": "hexo之butterfly的Details折叠"
+  },
+
+  "hexo之butterfly的Tabs 选项栏": {
+    "prefix": ">tabs",
+    "body": [
+      "{% tabs ${1:UUID} %}",
+      "",
+      "<!-- tab $2 -->",
+      "$0",
+      "<!-- endtab -->",
+      "<!-- tab $3 -->",
+      "",
+      "<!-- endtab -->",
+      "",
+      "{% endtabs %}"
+    ],
+    "description": "hexo之butterfly的Tabs 选项栏"
+  },
+
+  "vuepress的Tabs 选项栏": {
+    "prefix": ">>tabs",
+    "body": [
+      ":::: tabs cache-lifetime=\"10\" :options=\"{ useUrlFragment: false }\"",
+      "::: tab $1",
+      "",
+      "```$1",
+      "$0",
+      "```",
+      "",
+      ":::",
+      "",
+      "::: tab $2",
+      "",
+      "```$2",
+      "",
+      "```",
+      "",
+      ":::",
+      "::::"
+    ],
+    "description": "vuepress的Tabs 选项栏"
+  }
+}
