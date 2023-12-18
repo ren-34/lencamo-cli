@@ -1,24 +1,3 @@
-## 开发中
-
-- 测试
-
-```sh
-npm link
-lencamo-cli
-
-npm list
-```
-
-- 发表
-
-```sh
-# nrm ls
-# nrm use npm
-
-npm login
-npm public
-```
-
 ## 已完成
 
 - 基础命令实现
@@ -39,4 +18,25 @@ lencamo-cli create projectName
 ```sh
 # vue3-ting-admin添加新模块
 lencamo-cli generate product order --module ting
+```
+
+## 开发中
+
+- 测试
+
+```sh
+npm link
+lencamo-cli
+
+npm list
+```
+
+- 发表
+
+```sh
+# nrm ls
+# nrm use npm
+
+npm login
+npm public
 ```
